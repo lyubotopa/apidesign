@@ -1,3 +1,21 @@
+A template for a site that can be used to create and edit REST API designs
+--------------------------------------------------------------------------
+
+Internally it uses:
+
+ * Swaller Editor: http://swagger.io/swagger-editor/
+ * UserCake:       http://usercake.com/
+
+
+Status
+------
+Under development
+
+License
+-------
+MIT
+
+<!--
 # Swagger Editor
 
 [![Build Status](https://travis-ci.org/swagger-api/swagger-editor.svg?branch=master)](https://travis-ci.org/swagger-api/swagger-editor)
@@ -57,4 +75,5 @@ npm start
 [LICENSE](./LICENSE)
 
 ---
+-->
 <img src="http://swagger.io/wp-content/uploads/2016/02/logo.jpg"/>

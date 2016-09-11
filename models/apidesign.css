@@ -1,0 +1,83 @@
+ul.leftmenu {
+   list-style-type: none; 
+   margin: 0px;
+   margin-top: 0.3em;
+   margin-left: 0.3em;
+   padding: 0px;
+   //border-color: rgb(153, 51, 0);
+   border-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-left-radius: 5px;
+}
+li.last {
+   border-bottom-style: solid;
+}
+li.leftmenu {
+   margin: 0px;
+   padding: 0px;
+   padding-left: 1em;
+   //background-color: rgb(255, 204, 127);
+   //border-color: rgb(153, 51, 0);
+   border-width: 1px;
+   border-top-style: solid;
+   border-left-style: solid;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   min-width: 130;
+}
+li.leftmenuinactive {
+   margin: 0px;
+   padding: 0px;
+   padding-left: 0.5em;
+   //background-color: rgb(255, 188, 88);
+   //border-color: rgb(153, 51, 0);
+   border-width: 1px;
+   border-top-style: solid;
+   border-left-style: solid;
+   border-right-style: solid;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   min-width: 130px;
+}
+span.leftmenu {
+   margin: 0px;
+   padding: 0px;
+   padding-right: 1em;
+}
+a.leftmenu {
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+td.leftmenu {
+   vertical-align: top;
+}
+
+.about, .help {
+   width: 80%;
+}
+
+div.api {
+   margin: 2px;
+   float: left; 
+   width: 120px; 
+   height: 70px; 
+   border-radius: 5px; 
+   border: 1px solid green; 
+   position: relative;
+}
+
+div.api a.api, div.api form {
+   margin:0; 
+   position: absolute; 
+   top: 50%; left    : 50%; 
+   transform: translate(-50%, -50%);
+   text-decoration: none;
+}
+
+div.api:hover {
+   background-color: rgb(220,220,255);
+}
